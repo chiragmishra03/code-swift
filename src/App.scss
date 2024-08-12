@@ -1,0 +1,142 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+  background-color: gray;
+  margin: 0 auto; /* Center horizontally */
+  align-items: center;
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Ensure it takes the full height of the viewport */
+}
+
+#main-heading {
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center the text */
+}
+
+.dev-name {
+  display: flex;
+  margin: -20px auto;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center the text */
+  gap: 5px;
+}
+
+.toolbox {
+  background-color: rgb(71, 70, 70);
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.flex-item {
+  display: flex;
+  gap: 20px;
+}
+
+.canvas {
+  background-color: rgb(71, 70, 70);
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Coder.css */
+
+.coder-container {
+  width: 85%;
+  margin: -31px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(71, 70, 70);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.coder-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.coder-container select,
+.coder-container textarea,
+.coder-container button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.coder-container select,
+.coder-container button {
+  width: 100%;
+  margin: 10px 0;
+  max-width: fit-content;
+  padding: 10px;
+  border: 1px solid #0e0d0d;
+  border-radius: 4px;
+}
+
+.coder-container textarea {
+  resize: vertical;
+  font-size: 15px;
+  width: 60%;
+}
+
+.coder-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.coder-container button:hover {
+  background-color: #0056b3;
+}
+
+.coder-container pre {
+  max-width: 500px;
+  background-color: #333;
+  color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+.coder-elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.coder-container pre {
+  max-width: 500px;
+  background-color: #333;
+  color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+@media (max-width: 480px) {
+  .flex-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
